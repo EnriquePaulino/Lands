@@ -1,0 +1,13 @@
+D:\IBSProyecto\Lands\Lands\Lands\bin\Debug\netstandard2.0\Lands.deps.json
+D:\IBSProyecto\Lands\Lands\Lands\bin\Debug\netstandard2.0\Lands.dll
+D:\IBSProyecto\Lands\Lands\Lands\bin\Debug\netstandard2.0\Lands.pdb
+D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\ViewModels\LandsPage.xaml.g.cs
+D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Lands.csproj.CoreCompileInputs.cache
+D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Lands.AssemblyInfoInputs.cache
+D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Lands.AssemblyInfo.cs
+D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\XamlC.stamp
+D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Lands.dll
+D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Lands.pdb
