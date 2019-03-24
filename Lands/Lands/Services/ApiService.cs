@@ -24,7 +24,8 @@ namespace Lands.Services
                 };
             }
 
-            var isReachable = await CrossConnectivity.Current.IsRemoteReachable("google.com");
+            var isReachable = await CrossConnectivity.Current.IsRemoteReachable(
+                "google.com");
             if (!isReachable)
             {
                 return new Response
@@ -42,9 +43,9 @@ namespace Lands.Services
         }
 
         public async Task<TokenResponse> GetToken(
-            string urlBase,
-            string username,
-            string password)
+        string urlBase,
+        string username,
+        string password)
         {
             try
             {
@@ -52,7 +53,7 @@ namespace Lands.Services
                 client.BaseAddress = new Uri(urlBase);
                 var reponse = await client.PostAsync("Token",
                     new StringContent(string.Format(
-                        "grant_type=paaword&useerneme={0}&password={1}",
+                        "grant_type=password&userneme={0}&password={1}",
                         username, password),
                         Encoding.UTF8, "application/x-www-form-urlencoded"));
                 var resultJSON = await reponse.Content.ReadAsStringAsync();
@@ -98,7 +99,6 @@ namespace Lands.Services
 
                 var result = await response.Content.ReadAsStringAsync();
                 var model = JsonConvert.DeserializeObject<T>(result);
-
                 return new Response
                 {
                     IsSuccess = true,
@@ -116,17 +116,17 @@ namespace Lands.Services
             }
         }
 
+
         public async Task<Response> GetList<T>(
-            string urlBase,
-            string servicePrefix,
-            string controller,
-            )
+           string urlBase,
+           string servicePrefix,
+           string controller)
         {
             try
             {
                 var client = new HttpClient();
                 client.BaseAddress = new Uri(urlBase);
-                var url = string.Format("{0}{1}",servicePrefix,controller);
+                var url = string.Format("{0}{1}", servicePrefix, controller);
                 var response = await client.GetAsync(url);
                 var result = await response.Content.ReadAsStringAsync();
 
@@ -140,7 +140,6 @@ namespace Lands.Services
                 }
 
                 var list = JsonConvert.DeserializeObject<List<T>>(result);
-
                 return new Response
                 {
                     IsSuccess = true,
@@ -157,6 +156,8 @@ namespace Lands.Services
                 };
             }
         }
+
+
         public async Task<Response> GetList<T>(
            string urlBase,
            string servicePrefix,
@@ -170,7 +171,7 @@ namespace Lands.Services
                 client.DefaultRequestHeaders.Authorization =
                     new AuthenticationHeaderValue(tokenType, accessToken);
                 client.BaseAddress = new Uri(urlBase);
-                var url = string.Format("{0}{1}",servicePrefix,controller);
+                var url = string.Format("{0}{1}", servicePrefix, controller);
                 var response = await client.GetAsync(url);
                 var result = await response.Content.ReadAsStringAsync();
 
@@ -200,6 +201,58 @@ namespace Lands.Services
                 };
             }
         }
+
+
+        public async Task<Response> GetList<T>(
+           string urlBase,
+           string servicePrefix,
+           string controller,
+           string tokenType,
+           string accessToken,
+           int id)
+        {
+            try
+            {
+                var client = new HttpClient();
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue(tokenType, accessToken);
+                client.BaseAddress = new Uri(urlBase);
+                var url = string.Format(
+                    "{0}{1}/{2}",
+                    servicePrefix,
+                    controller,
+                    id);
+                var response = await client.GetAsync(url);
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    return new Response
+                    {
+                        IsSuccess = false,
+                        Message = response.StatusCode.ToString(),
+                    };
+                }
+
+                var result = await response.Content.ReadAsStringAsync();
+                var list = JsonConvert.DeserializeObject<List<T>>(result);
+                return new Response
+                {
+                    IsSuccess = true,
+                    Message = "OK",
+                    Result = list,
+                };
+            }
+            catch (Exception ex)
+            {
+                return new Response
+                {
+                    IsSuccess = false,
+                    Message = ex.Message,
+                };
+            }
+        }
+
+
         public async Task<Response> Post<T>(
            string urlBase,
            string servicePrefix,
@@ -218,7 +271,7 @@ namespace Lands.Services
                 client.DefaultRequestHeaders.Authorization =
                     new AuthenticationHeaderValue(tokenType, accessToken);
                 client.BaseAddress = new Uri(urlBase);
-                var url = string.Format("{0}{1}",servicePrefix,controller);
+                var url = string.Format("{0}{1}", servicePrefix, controller);
                 var response = await client.PostAsync(url, content);
                 var result = await response.Content.ReadAsStringAsync();
 
@@ -229,7 +282,7 @@ namespace Lands.Services
                     return error;
                 }
 
-                var newRecord = JsonConvert.DeserializeObject <T>(result);
+                var newRecord = JsonConvert.DeserializeObject<T>(result);
 
                 return new Response
                 {
@@ -247,6 +300,8 @@ namespace Lands.Services
                 };
             }
         }
+
+
         public async Task<Response> Put<T>(
            string urlBase,
            string servicePrefix,
@@ -297,6 +352,8 @@ namespace Lands.Services
                 };
             }
         }
+
+
         public async Task<Response> Delete<T>(
            string urlBase,
            string servicePrefix,

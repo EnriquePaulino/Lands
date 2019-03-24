@@ -1,7 +1,5 @@
-CommonServiceLocator
 FormsViewGroup
 GalaSoft.MvvmLight
-GalaSoft.MvvmLight.Extras
 GalaSoft.MvvmLight.Platform
 Lands
 Newtonsoft.Json
@@ -32,6 +30,4 @@ Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
-System.Resources.ResourceManager
-System.ComponentModel
 System.Reflection.Extensions

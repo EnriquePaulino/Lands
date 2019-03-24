@@ -1,8 +1,5 @@
 D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\Lands.iOS.exe
 D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\Lands.iOS.pdb
-D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\CommonServiceLocator.dll
-D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\GalaSoft.MvvmLight.Extras.dll
-D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\GalaSoft.MvvmLight.Extras.pdb
 D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\GalaSoft.MvvmLight.Platform.dll
 D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\GalaSoft.MvvmLight.dll
 D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\GalaSoft.MvvmLight.pdb
@@ -53,7 +50,6 @@ D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\vi\Xamarin.Forms.
 D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
 D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
 D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
-D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\Xamarin.SimplePing.iOS.dll
 D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\Lands.dll
 D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\Lands.pdb
 D:\IBSProyecto\Lands\Lands\Lands.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
