@@ -1,3 +1,10 @@
+FFImageLoading
+FFImageLoading.Forms
+FFImageLoading.Forms.Droid
+FFImageLoading.Platform
+FFImageLoading.Svg.Forms
+FFImageLoading.Svg.Platform
+FFImageLoading.Transformations
 FormsViewGroup
 GalaSoft.MvvmLight
 GalaSoft.MvvmLight.Platform
@@ -5,6 +12,7 @@ Lands
 Newtonsoft.Json
 Plugin.Connectivity.Abstractions
 Plugin.Connectivity
+SkiaSharp
 System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
@@ -29,5 +37,6 @@ Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
+Xamarin.Android.Support.Exif
 netstandard
 System.Reflection.Extensions

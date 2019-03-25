@@ -59,17 +59,17 @@
         private async void LoadLands()
         {
             this.IsRefreshing = true;
-            var connection = await apiService.CheckConnection();
+            //var connection = await apiService.CheckConnection();
 
-            if (!connection.IsSuccess)
-            {
-                await Application.Current.MainPage.DisplayAlert(
-                    "Error",
-                    connection.Message,
-                    "Accept");
-                await Application.Current.MainPage.Navigation.PopAsync();
-                return;
-            }
+            //if (!connection.IsSuccess)
+            //{
+            //    await Application.Current.MainPage.DisplayAlert(
+            //        "Error",
+            //        connection.Message,
+            //        "Accept");
+            //    await Application.Current.MainPage.Navigation.PopAsync();
+            //    return;
+            //}
 
 
             var response = await this.apiService.GetList<Land>(
