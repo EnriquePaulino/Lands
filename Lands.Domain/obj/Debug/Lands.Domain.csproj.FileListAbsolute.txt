@@ -1,0 +1,6 @@
+D:\IBSProyecto\Lands\Lands.Domain\bin\Debug\Lands.Domain.dll
+D:\IBSProyecto\Lands\Lands.Domain\bin\Debug\Lands.Domain.pdb
+D:\IBSProyecto\Lands\Lands.Domain\obj\Debug\Lands.Domain.csprojAssemblyReference.cache
+D:\IBSProyecto\Lands\Lands.Domain\obj\Debug\Lands.Domain.csproj.CoreCompileInputs.cache
+D:\IBSProyecto\Lands\Lands.Domain\obj\Debug\Lands.Domain.dll
+D:\IBSProyecto\Lands\Lands.Domain\obj\Debug\Lands.Domain.pdb
