@@ -491,6 +491,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Lands.Domain": "1.0.0",
           "MvvmLightLibsStd10": "5.4.1.1",
           "Newtonsoft.Json": "12.0.1",
           "Xam.Plugin.Connectivity": "3.1.1",
@@ -506,6 +507,16 @@
         },
         "runtime": {
           "bin/placeholder/Lands.dll": {}
+        }
+      },
+      "Lands.Domain/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/Lands.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lands.Domain.dll": {}
         }
       }
     }
@@ -1392,6 +1403,11 @@
       "type": "project",
       "path": "../Lands/Lands.csproj",
       "msbuildProject": "../Lands/Lands.csproj"
+    },
+    "Lands.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Lands.Domain/Lands.Domain.csproj",
+      "msbuildProject": "../../Lands.Domain/Lands.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1504,5 +1520,16 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto Lands.Domain no es compatible con monoandroid81 (MonoAndroid,Version=v8.1). El proyecto Lands.Domain admite: net461 (.NETFramework,Version=v4.6.1)",
+      "libraryId": "Lands.Domain",
+      "targetGraphs": [
+        "MonoAndroid,Version=v8.1"
+      ]
+    }
+  ]
 }

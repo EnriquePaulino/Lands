@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage
+<ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:i18n="clr-namespace:Lands.Helpers"
     x:Class="Lands.Views.LoginPage"
     BindingContext="{Binding Main, Source={StaticResource Locator}}"
-    Title="Lands">
+    Title="{i18n:Translate Login}">
     <ContentPage.Content>
         <ScrollView
             BindingContext="{Binding Login}">
@@ -25,7 +25,7 @@
                     <Label
                         Grid.Row="0"
                         Grid.Column="0"
-                        Text="E-Mail"
+                        Text="{i18n:Translate EMail}"
                         VerticalOptions="Center">
                     </Label>
                     <Entry
@@ -38,15 +38,15 @@
                     <Label
                         Grid.Row="1"
                         Grid.Column="0"
-                        Text="Password"
+                        Text="{i18n:Translate Password}"
                         VerticalOptions="Center">
                     </Label>
                     <Entry
                         Grid.Row="1"
                         Grid.Column="1"
-                        IsPassword="True"
+                        IsPassword="true"
                         Text="{Binding Password, Mode=TwoWay}"
-                        Placeholder="Enter your password..">
+                        Placeholder="{i18n:Translate PasswordPlaceHolder}">
                     </Entry>
                 </Grid>
                 <ActivityIndicator
@@ -69,10 +69,9 @@
                 </StackLayout>
                 <Label
                     HorizontalOptions="Center"
-                    Text="Forgot your password?"
+                    Text="{i18n:Translate Forgot}"
                     TextColor="Blue"
                     VerticalOptions="CenterAndExpand">
-                    
                 </Label>
                 <StackLayout
                     Margin="40,0"
@@ -85,8 +84,9 @@
                         HeightRequest="46"
                         HorizontalOptions="FillAndExpand"
                         IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
-                        Text="Login"
+                        Text="{i18n:Translate Login}"
                         TextColor="White">
+                        <!--Text="{i18n:Translate Login}"-->
                     </Button>
                     <Button
                         BackgroundColor="Purple"
@@ -94,7 +94,7 @@
                         HeightRequest="46"
                         HorizontalOptions="FillAndExpand"
                         IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
-                        Text="Register"
+                        Text="{i18n:Translate Register}"
                         TextColor="White">
                     </Button>
                 </StackLayout>
@@ -105,14 +105,17 @@
                     <Image
                         Source="facebook_logo"
                         WidthRequest="100">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding LoginFacebookComand}"/>
+                        </Image.GestureRecognizers>
                     </Image>
                     <Image
                         Source="twitter_logo"
-                        WidthRequest="70">
+                        WidthRequest="100">
                     </Image>
                     <Image
                         Source="instagram_logo"
-                        WidthRequest="80">
+                        WidthRequest="85">
                     </Image>
                 </StackLayout>
             </StackLayout>

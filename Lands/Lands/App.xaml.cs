@@ -5,6 +5,12 @@
 
     public partial class App : Application
     {
+        public static INavigation Navigator
+        {
+            get;
+            internal set;
+        }
+
         #region Constructors
         public App()
         {

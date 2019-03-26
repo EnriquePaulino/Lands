@@ -39,4 +39,6 @@ Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 Xamarin.Android.Support.Exif
 netstandard
+Lands.Domain
 System.Reflection.Extensions
+EntityFramework

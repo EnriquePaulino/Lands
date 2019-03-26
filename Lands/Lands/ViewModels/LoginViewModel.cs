@@ -88,7 +88,7 @@
             {
                 await Application.Current.MainPage.DisplayAlert(
                     Languages.Error,
-                    Languages.PasswordValidation,
+                    "Languages.PasswordValidation",
                     Languages.Accept);
                 this.Password = string.Empty;
                 return;

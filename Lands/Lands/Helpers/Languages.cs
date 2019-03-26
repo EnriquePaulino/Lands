@@ -49,10 +49,10 @@ namespace Lands.Helpers
             get { return Resource.SomethingWrong; }
         }
 
-        public static string Login
-        {
-            get { return Resource.Login; }
-        }
+        //public static string Login
+        //{
+        //    get { return Resource.Login; }
+        //}
 
         public static string EMail
         {
@@ -172,6 +172,11 @@ namespace Lands.Helpers
         public static string MyLanguages
         {
             get { return Resource.MyLanguages; }
+        }
+
+        public static string Menu
+        {
+            get { return Resource.Menu; }
         }
     }
 }

@@ -259,6 +259,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Lands.Domain": "1.0.0",
           "MvvmLightLibsStd10": "5.4.1.1",
           "Newtonsoft.Json": "12.0.1",
           "Xam.Plugin.Connectivity": "3.1.1",
@@ -274,6 +275,16 @@
         },
         "runtime": {
           "bin/placeholder/Lands.dll": {}
+        }
+      },
+      "Lands.Domain/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/Lands.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lands.Domain.dll": {}
         }
       }
     },
@@ -521,6 +532,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Lands.Domain": "1.0.0",
           "MvvmLightLibsStd10": "5.4.1.1",
           "Newtonsoft.Json": "12.0.1",
           "Xam.Plugin.Connectivity": "3.1.1",
@@ -536,6 +548,16 @@
         },
         "runtime": {
           "bin/placeholder/Lands.dll": {}
+        }
+      },
+      "Lands.Domain/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/Lands.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lands.Domain.dll": {}
         }
       }
     },
@@ -783,6 +805,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Lands.Domain": "1.0.0",
           "MvvmLightLibsStd10": "5.4.1.1",
           "Newtonsoft.Json": "12.0.1",
           "Xam.Plugin.Connectivity": "3.1.1",
@@ -798,6 +821,16 @@
         },
         "runtime": {
           "bin/placeholder/Lands.dll": {}
+        }
+      },
+      "Lands.Domain/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/Lands.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lands.Domain.dll": {}
         }
       }
     },
@@ -1045,6 +1078,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Lands.Domain": "1.0.0",
           "MvvmLightLibsStd10": "5.4.1.1",
           "Newtonsoft.Json": "12.0.1",
           "Xam.Plugin.Connectivity": "3.1.1",
@@ -1060,6 +1094,16 @@
         },
         "runtime": {
           "bin/placeholder/Lands.dll": {}
+        }
+      },
+      "Lands.Domain/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/Lands.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lands.Domain.dll": {}
         }
       }
     }
@@ -1656,6 +1700,11 @@
       "type": "project",
       "path": "../Lands/Lands.csproj",
       "msbuildProject": "../Lands/Lands.csproj"
+    },
+    "Lands.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Lands.Domain/Lands.Domain.csproj",
+      "msbuildProject": "../../Lands.Domain/Lands.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1754,5 +1803,43 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto Lands.Domain no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0). El proyecto Lands.Domain admite: net461 (.NETFramework,Version=v4.6.1)",
+      "libraryId": "Lands.Domain",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto Lands.Domain no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0) / win. El proyecto Lands.Domain admite: net461 (.NETFramework,Version=v4.6.1)",
+      "libraryId": "Lands.Domain",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto Lands.Domain no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. El proyecto Lands.Domain admite: net461 (.NETFramework,Version=v4.6.1)",
+      "libraryId": "Lands.Domain",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto Lands.Domain no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. El proyecto Lands.Domain admite: net461 (.NETFramework,Version=v4.6.1)",
+      "libraryId": "Lands.Domain",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

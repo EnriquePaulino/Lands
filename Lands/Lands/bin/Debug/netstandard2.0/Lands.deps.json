@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "Lands/1.0.0": {
         "dependencies": {
+          "Lands.Domain": "1.0.0",
           "MvvmLightLibsStd10": "5.4.1.1",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.1",
@@ -151,6 +152,22 @@
             "fileVersion": "2.0.0.0"
           }
         }
+      },
+      "Lands.Domain/1.0.0": {
+        "dependencies": {
+          "EntityFramework": "6.0.0.0"
+        },
+        "runtime": {
+          "Lands.Domain.dll": {}
+        }
+      },
+      "EntityFramework.Reference/6.0.0.0": {
+        "runtime": {
+          "EntityFramework.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.2.61023.0"
+          }
+        }
       }
     }
   },
@@ -243,6 +260,16 @@
       "sha512": "sha512-PbnXpStyxNYJzPrXXMW17F4YeMsFAs6YT9LL2vxObDWCGtaKkLia4UyBPF3Qbhy+lQPeap/ijV1Rlvasp4DFiA==",
       "path": "xamarin.forms/3.6.0.264807",
       "hashPath": "xamarin.forms.3.6.0.264807.nupkg.sha512"
+    },
+    "Lands.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntityFramework.Reference/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

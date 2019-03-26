@@ -159,6 +159,16 @@
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
         }
+      },
+      "Lands.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "compile": {
+          "bin/placeholder/Lands.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lands.Domain.dll": {}
+        }
       }
     }
   },
@@ -877,10 +887,16 @@
         "xamarin.forms.3.6.0.264807.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "Lands.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Lands.Domain/Lands.Domain.csproj",
+      "msbuildProject": "../../Lands.Domain/Lands.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Lands.Domain >= 1.0.0",
       "MvvmLightLibsStd10 >= 5.4.1.1",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.1",
@@ -922,7 +938,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\IBSProyecto\\Lands\\Lands.Domain\\Lands.Domain.csproj": {
+              "projectPath": "D:\\IBSProyecto\\Lands\\Lands.Domain\\Lands.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

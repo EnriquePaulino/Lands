@@ -2,315 +2,172 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.6.1": {
-      "SkiaSharp/1.60.0": {
+      "EntityFramework/6.2.0": {
         "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
         "compile": {
-          "lib/net45/SkiaSharp.dll": {}
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         },
         "runtime": {
-          "lib/net45/SkiaSharp.dll": {}
-        },
-        "build": {
-          "build/net45/SkiaSharp.targets": {}
-        },
-        "runtimeTargets": {
-          "runtimes/osx/native/libSkiaSharp.dylib": {
-            "assetType": "native",
-            "rid": "osx"
-          },
-          "runtimes/win7-x64/native/libSkiaSharp.dll": {
-            "assetType": "native",
-            "rid": "win7-x64"
-          },
-          "runtimes/win7-x86/native/libSkiaSharp.dll": {
-            "assetType": "native",
-            "rid": "win7-x86"
-          }
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         }
       },
-      "Xamarin.FFImageLoading/2.4.5.870-pre": {
+      "Newtonsoft.Json/11.0.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard1.0/FFImageLoading.Platform.dll": {},
-          "lib/netstandard1.0/FFImageLoading.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.0/FFImageLoading.Platform.dll": {},
-          "lib/netstandard1.0/FFImageLoading.dll": {}
-        }
-      },
-      "Xamarin.FFImageLoading.Svg/2.4.5.870-pre": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "1.60.0",
-          "Xamarin.FFImageLoading": "2.4.5.870-pre"
-        },
-        "compile": {
-          "lib/netstandard1.0/FFImageLoading.Svg.Platform.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.0/FFImageLoading.Svg.Platform.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {}
         }
       }
     },
     ".NETFramework,Version=v4.6.1/win": {
-      "SkiaSharp/1.60.0": {
+      "EntityFramework/6.2.0": {
         "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
         "compile": {
-          "lib/net45/SkiaSharp.dll": {}
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         },
         "runtime": {
-          "lib/net45/SkiaSharp.dll": {}
-        },
-        "build": {
-          "build/net45/SkiaSharp.targets": {}
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         }
       },
-      "Xamarin.FFImageLoading/2.4.5.870-pre": {
+      "Newtonsoft.Json/11.0.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard1.0/FFImageLoading.Platform.dll": {},
-          "lib/netstandard1.0/FFImageLoading.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.0/FFImageLoading.Platform.dll": {},
-          "lib/netstandard1.0/FFImageLoading.dll": {}
-        }
-      },
-      "Xamarin.FFImageLoading.Svg/2.4.5.870-pre": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "1.60.0",
-          "Xamarin.FFImageLoading": "2.4.5.870-pre"
-        },
-        "compile": {
-          "lib/netstandard1.0/FFImageLoading.Svg.Platform.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.0/FFImageLoading.Svg.Platform.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {}
         }
       }
     },
     ".NETFramework,Version=v4.6.1/win-x64": {
-      "SkiaSharp/1.60.0": {
+      "EntityFramework/6.2.0": {
         "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
         "compile": {
-          "lib/net45/SkiaSharp.dll": {}
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         },
         "runtime": {
-          "lib/net45/SkiaSharp.dll": {}
-        },
-        "build": {
-          "build/net45/SkiaSharp.targets": {}
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         }
       },
-      "Xamarin.FFImageLoading/2.4.5.870-pre": {
+      "Newtonsoft.Json/11.0.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard1.0/FFImageLoading.Platform.dll": {},
-          "lib/netstandard1.0/FFImageLoading.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.0/FFImageLoading.Platform.dll": {},
-          "lib/netstandard1.0/FFImageLoading.dll": {}
-        }
-      },
-      "Xamarin.FFImageLoading.Svg/2.4.5.870-pre": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "1.60.0",
-          "Xamarin.FFImageLoading": "2.4.5.870-pre"
-        },
-        "compile": {
-          "lib/netstandard1.0/FFImageLoading.Svg.Platform.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.0/FFImageLoading.Svg.Platform.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {}
         }
       }
     },
     ".NETFramework,Version=v4.6.1/win-x86": {
-      "SkiaSharp/1.60.0": {
+      "EntityFramework/6.2.0": {
         "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
         "compile": {
-          "lib/net45/SkiaSharp.dll": {}
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         },
         "runtime": {
-          "lib/net45/SkiaSharp.dll": {}
-        },
-        "build": {
-          "build/net45/SkiaSharp.targets": {}
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         }
       },
-      "Xamarin.FFImageLoading/2.4.5.870-pre": {
+      "Newtonsoft.Json/11.0.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard1.0/FFImageLoading.Platform.dll": {},
-          "lib/netstandard1.0/FFImageLoading.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.0/FFImageLoading.Platform.dll": {},
-          "lib/netstandard1.0/FFImageLoading.dll": {}
-        }
-      },
-      "Xamarin.FFImageLoading.Svg/2.4.5.870-pre": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "1.60.0",
-          "Xamarin.FFImageLoading": "2.4.5.870-pre"
-        },
-        "compile": {
-          "lib/netstandard1.0/FFImageLoading.Svg.Platform.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.0/FFImageLoading.Svg.Platform.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "SkiaSharp/1.60.0": {
-      "sha512": "HoSNIZH54rinevEhLUWdeclr+H/QdmOp252+Tt07HTXwQyvRl9eW32ga/X7T56wsR855SKprb0RcnBPRCzlqSA==",
+    "EntityFramework/6.2.0": {
+      "sha512": "ptGyXOf26qLrtn+2doAmylIlCxOnBJANwlyyLrXDmqIk9O18IzLWHyxDwwAyhgXkxmbiaA0WNpRy67WRReInBw==",
       "type": "package",
-      "path": "skiasharp/1.60.0",
+      "path": "entityframework/6.2.0",
+      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "build/net45/SkiaSharp.dll.config",
-        "build/net45/SkiaSharp.targets",
-        "lib/MonoAndroid/SkiaSharp.dll",
-        "lib/MonoAndroid/SkiaSharp.xml",
-        "lib/XamarinMac/SkiaSharp.dll",
-        "lib/XamarinMac/SkiaSharp.xml",
-        "lib/XamariniOS/SkiaSharp.dll",
-        "lib/XamariniOS/SkiaSharp.xml",
-        "lib/XamarintvOS/SkiaSharp.dll",
-        "lib/XamarintvOS/SkiaSharp.xml",
-        "lib/XamarinwatchOS/SkiaSharp.dll",
-        "lib/XamarinwatchOS/SkiaSharp.xml",
-        "lib/net45/SkiaSharp.dll",
-        "lib/net45/SkiaSharp.dll.config",
-        "lib/net45/SkiaSharp.xml",
-        "lib/netstandard1.3/SkiaSharp.dll",
-        "lib/netstandard1.3/SkiaSharp.xml",
-        "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.dll",
-        "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.xml",
-        "lib/uap10.0/SkiaSharp.dll",
-        "lib/uap10.0/SkiaSharp.xml",
-        "runtimes/osx/native/libSkiaSharp.dylib",
-        "runtimes/win10-arm/nativeassets/uap10.0/libEGL.dll",
-        "runtimes/win10-arm/nativeassets/uap10.0/libGLESv2.dll",
-        "runtimes/win10-arm/nativeassets/uap10.0/libSkiaSharp.dll",
-        "runtimes/win10-x64/nativeassets/uap10.0/libEGL.dll",
-        "runtimes/win10-x64/nativeassets/uap10.0/libGLESv2.dll",
-        "runtimes/win10-x64/nativeassets/uap10.0/libSkiaSharp.dll",
-        "runtimes/win10-x86/nativeassets/uap10.0/libEGL.dll",
-        "runtimes/win10-x86/nativeassets/uap10.0/libGLESv2.dll",
-        "runtimes/win10-x86/nativeassets/uap10.0/libSkiaSharp.dll",
-        "runtimes/win7-x64/native/libSkiaSharp.dll",
-        "runtimes/win7-x86/native/libSkiaSharp.dll",
-        "skiasharp.1.60.0.nupkg.sha512",
-        "skiasharp.nuspec",
-        "xamarin.interactive/SkiaSharp.Workbooks.dll"
+        "content/net40/App.config.transform",
+        "content/net40/Web.config.transform",
+        "entityframework.6.2.0.nupkg.sha512",
+        "entityframework.nuspec",
+        "lib/net40/EntityFramework.SqlServer.dll",
+        "lib/net40/EntityFramework.SqlServer.xml",
+        "lib/net40/EntityFramework.dll",
+        "lib/net40/EntityFramework.xml",
+        "lib/net45/EntityFramework.SqlServer.dll",
+        "lib/net45/EntityFramework.SqlServer.xml",
+        "lib/net45/EntityFramework.dll",
+        "lib/net45/EntityFramework.xml",
+        "tools/EntityFramework.PowerShell.Utility.dll",
+        "tools/EntityFramework.PowerShell.dll",
+        "tools/EntityFramework.psd1",
+        "tools/EntityFramework.psm1",
+        "tools/about_EntityFramework.help.txt",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/migrate.exe"
       ]
     },
-    "Xamarin.FFImageLoading/2.4.5.870-pre": {
-      "sha512": "v3EcDVZltXjZ5mqPm2eNYdEO2OaRSBB7sMX3mOg/aC1NJW0+eWtFye2wvrG5efqiAlvF87bbIrtHyKaZ1B1aZw==",
+    "Newtonsoft.Json/11.0.1": {
+      "sha512": "pNN4l+J6LlpIvHOeNdXlwxv39NPJ2B5klz+Rd2UQZIx30Squ5oND1Yy3wEAUoKn0GPUj6Yxt9lxlYWQqfZcvKg==",
       "type": "package",
-      "path": "xamarin.ffimageloading/2.4.5.870-pre",
+      "path": "newtonsoft.json/11.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/MonoAndroid10/FFImageLoading.Platform.dll",
-        "lib/MonoAndroid10/FFImageLoading.Platform.pdb",
-        "lib/MonoAndroid10/FFImageLoading.Platform.xml",
-        "lib/MonoAndroid10/FFImageLoading.dll",
-        "lib/MonoAndroid10/FFImageLoading.pdb",
-        "lib/MonoAndroid10/FFImageLoading.xml",
-        "lib/Xamarin.Mac20/FFImageLoading.Platform.dll",
-        "lib/Xamarin.Mac20/FFImageLoading.Platform.pdb",
-        "lib/Xamarin.Mac20/FFImageLoading.Platform.xml",
-        "lib/Xamarin.Mac20/FFImageLoading.dll",
-        "lib/Xamarin.Mac20/FFImageLoading.pdb",
-        "lib/Xamarin.Mac20/FFImageLoading.xml",
-        "lib/Xamarin.iOS10/FFImageLoading.Platform.dll",
-        "lib/Xamarin.iOS10/FFImageLoading.Platform.pdb",
-        "lib/Xamarin.iOS10/FFImageLoading.Platform.xml",
-        "lib/Xamarin.iOS10/FFImageLoading.dll",
-        "lib/Xamarin.iOS10/FFImageLoading.pdb",
-        "lib/Xamarin.iOS10/FFImageLoading.xml",
-        "lib/netstandard1.0/FFImageLoading.Platform.dll",
-        "lib/netstandard1.0/FFImageLoading.Platform.xml",
-        "lib/netstandard1.0/FFImageLoading.dll",
-        "lib/netstandard1.0/FFImageLoading.pdb",
-        "lib/netstandard1.0/FFImageLoading.xml",
-        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Platform.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Platform.xml",
-        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.pdb",
-        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.xml",
-        "lib/tizen40/FFImageLoading.Platform.dll",
-        "lib/tizen40/FFImageLoading.Platform.pdb",
-        "lib/tizen40/FFImageLoading.Platform.xml",
-        "lib/tizen40/FFImageLoading.dll",
-        "lib/tizen40/FFImageLoading.pdb",
-        "lib/tizen40/FFImageLoading.xml",
-        "lib/uap/FFImageLoading.Platform.dll",
-        "lib/uap/FFImageLoading.Platform.pdb",
-        "lib/uap/FFImageLoading.Platform.xml",
-        "lib/uap/FFImageLoading.dll",
-        "lib/uap/FFImageLoading.pdb",
-        "lib/uap/FFImageLoading.xml",
-        "lib/win81/FFImageLoading.Platform.dll",
-        "lib/win81/FFImageLoading.Platform.pdb",
-        "lib/win81/FFImageLoading.Platform.xml",
-        "lib/win81/FFImageLoading.dll",
-        "lib/win81/FFImageLoading.pdb",
-        "lib/win81/FFImageLoading.xml",
-        "lib/wpa81/FFImageLoading.Platform.dll",
-        "lib/wpa81/FFImageLoading.Platform.pdb",
-        "lib/wpa81/FFImageLoading.Platform.xml",
-        "lib/wpa81/FFImageLoading.dll",
-        "lib/wpa81/FFImageLoading.pdb",
-        "lib/wpa81/FFImageLoading.xml",
-        "xamarin.ffimageloading.2.4.5.870-pre.nupkg.sha512",
-        "xamarin.ffimageloading.nuspec"
-      ]
-    },
-    "Xamarin.FFImageLoading.Svg/2.4.5.870-pre": {
-      "sha512": "TdNwtxUW/CjYc92JFfPUBk6sPEbeJRRNBHQEBdPi/uFDGLIjyYR8Amj91ZmpYG+2d9tYVrFMfm7n+6YEpF8mng==",
-      "type": "package",
-      "path": "xamarin.ffimageloading.svg/2.4.5.870-pre",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/MonoAndroid10/FFImageLoading.Svg.Platform.dll",
-        "lib/MonoAndroid10/FFImageLoading.Svg.Platform.pdb",
-        "lib/MonoAndroid10/FFImageLoading.Svg.Platform.xml",
-        "lib/Xamarin.Mac20/FFImageLoading.Svg.Platform.dll",
-        "lib/Xamarin.Mac20/FFImageLoading.Svg.Platform.pdb",
-        "lib/Xamarin.Mac20/FFImageLoading.Svg.Platform.xml",
-        "lib/Xamarin.iOS10/FFImageLoading.Svg.Platform.dll",
-        "lib/Xamarin.iOS10/FFImageLoading.Svg.Platform.pdb",
-        "lib/Xamarin.iOS10/FFImageLoading.Svg.Platform.xml",
-        "lib/netstandard1.0/FFImageLoading.Svg.Platform.dll",
-        "lib/netstandard1.0/FFImageLoading.Svg.Platform.xml",
-        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Svg.Platform.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Svg.Platform.xml",
-        "lib/tizen40/FFImageLoading.Svg.Platform.dll",
-        "lib/tizen40/FFImageLoading.Svg.Platform.pdb",
-        "lib/tizen40/FFImageLoading.Svg.Platform.xml",
-        "lib/uap/FFImageLoading.Svg.Platform.dll",
-        "lib/uap/FFImageLoading.Svg.Platform.pdb",
-        "lib/uap/FFImageLoading.Svg.Platform.xml",
-        "xamarin.ffimageloading.svg.2.4.5.870-pre.nupkg.sha512",
-        "xamarin.ffimageloading.svg.nuspec"
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.6.1": [
-      "Xamarin.FFImageLoading.Svg >= 2.4.5.870-pre"
+      "EntityFramework >= 6.2.0",
+      "Newtonsoft.Json >= 11.0.1"
     ]
   },
   "packageFolders": {
@@ -346,9 +203,13 @@
     "frameworks": {
       "net461": {
         "dependencies": {
-          "Xamarin.FFImageLoading.Svg": {
+          "EntityFramework": {
             "target": "Package",
-            "version": "[2.4.5.870-pre, )"
+            "version": "[6.2.0, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[11.0.1, )"
           }
         }
       }
