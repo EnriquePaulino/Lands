@@ -60,8 +60,8 @@
             this.IsRemembered = true;
             this.IsEnabled = true;
 
-            this.Email = "paulinoenrique@hotmail.es";
-            this.Password = "123456";
+            //this.Email = "paulinoenrique@hotmail.es";
+            //this.Password = "123456";
         }
         #endregion
 
@@ -141,8 +141,12 @@
             var mainViewModel = MainViewModel.GetInstance();
             mainViewModel.Token = token.AccessToken;
             mainViewModel.TokenType = token.TokenType;
+
+            if (this.IsRemembered)
+            {
             Settings.Token = token.AccessToken;
             Settings.TokenType = token.TokenType;
+            }
             mainViewModel.Lands = new LandsViewModel();
             Application.Current.MainPage = new MasterPage();
 

@@ -195,7 +195,6 @@ D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\android\assets\Xamarin.For
 D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
 D:\IBSProyecto\Lands\Lands\Lands\bin\Debug\netstandard2.0\Lands.dll
-D:\IBSProyecto\Lands\Lands\Lands.Android\bin\Debug\Lands.Domain.dll
 D:\IBSProyecto\Lands\Lands\Lands.Android\bin\Debug\Lands.dll.mdb
 D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\linksrc\GalaSoft.MvvmLight.Platform.dll.mdb
 D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\linksrc\Lands.dll.mdb
