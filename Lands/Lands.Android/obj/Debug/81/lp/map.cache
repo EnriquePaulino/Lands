@@ -12,6 +12,8 @@ Lands
 Newtonsoft.Json
 Plugin.Connectivity.Abstractions
 Plugin.Connectivity
+Plugin.Settings.Abstractions
+Plugin.Settings
 SkiaSharp
 System.Runtime
 Xamarin.Android.Arch.Core.Common
@@ -42,3 +44,4 @@ netstandard
 Lands.Domain
 System.Reflection.Extensions
 EntityFramework
+System.Configuration

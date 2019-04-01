@@ -1,6 +1,6 @@
 ﻿namespace Lands.Backend.Helpers
 {
-    using Lands.Backend.Models;
+    using Models;
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.EntityFramework;
     using System;
@@ -78,7 +78,7 @@
 
                 userManager.Create(userASP, email);
             }
-             
+
             userManager.AddToRole(userASP.Id, roleName);
         }
 

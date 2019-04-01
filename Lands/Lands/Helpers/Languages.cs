@@ -178,5 +178,21 @@ namespace Lands.Helpers
         {
             get { return Resource.Menu; }
         }
+
+        public static string MyProfile
+        {
+            get { return Resource.MyProfile; }
+        }
+
+        public static string Statics
+        {
+            get { return Resource.Statics; }
+        }
+
+        public static string LogoOut
+        {
+            get { return Resource.LogoOut; }
+        }
+
     }
 }

@@ -1,11 +1,12 @@
 ﻿namespace Lands.ViewModels
 {
     using GalaSoft.MvvmLight.Command;
-    using Lands.ViewsModels;
+    using ViewModels;
     using Services;
     using System.Windows.Input;
     using Xamarin.Forms;
     using Helpers;
+    using Views;
 
     public class LoginViewModel : BaseViewModel
     {
@@ -59,7 +60,7 @@
             this.IsRemembered = true;
             this.IsEnabled = true;
 
-            this.Email = "paulinoenrique@gmail.com";
+            this.Email = "paulinoenrique@hotmail.es";
             this.Password = "123456";
         }
         #endregion
@@ -81,92 +82,75 @@
                     Languages.Error,
                     Languages.EmailValidation,
                     Languages.Accept);
-                this.Email = string.Empty;
                 return;
             }
+
             if (string.IsNullOrEmpty(this.Password))
             {
                 await Application.Current.MainPage.DisplayAlert(
                     Languages.Error,
-                    "Languages.PasswordValidation",
+                    Languages.PasswordValidation,
                     Languages.Accept);
-                this.Password = string.Empty;
                 return;
             }
 
             this.IsRunning = true;
-            this.IsEnabled = true;
+            this.IsEnabled = false;
 
-            if (this.Email != "paulinoenrique@gmail.com" || this.Password != "123456")
+            var connection = await this.apiService.CheckConnection();
+
+            if (!connection.IsSuccess)
             {
                 this.IsRunning = false;
                 this.IsEnabled = true;
                 await Application.Current.MainPage.DisplayAlert(
                     Languages.Error,
-                    "Email or Password incorrect.",
+                    connection.Message,
+                    Languages.Accept);
+                return;
+            }
+
+            var token = await this.apiService.GetToken(
+                "http://landsapi.somee.com",
+                this.Email,
+                this.Password);
+
+            if (token == null)
+            {
+                this.IsRunning = false;
+                this.IsEnabled = true;
+                await Application.Current.MainPage.DisplayAlert(
+                    Languages.Error,
+                    Languages.SomethingWrong,
+                    Languages.Accept);
+                return;
+            }
+
+            if (string.IsNullOrEmpty(token.AccessToken))
+            {
+                this.IsRunning = false;
+                this.IsEnabled = true;
+                await Application.Current.MainPage.DisplayAlert(
+                    Languages.Error,
+                    token.ErrorDescription,
                     Languages.Accept);
                 this.Password = string.Empty;
                 return;
             }
+
+            var mainViewModel = MainViewModel.GetInstance();
+            mainViewModel.Token = token.AccessToken;
+            mainViewModel.TokenType = token.TokenType;
+            Settings.Token = token.AccessToken;
+            Settings.TokenType = token.TokenType;
+            mainViewModel.Lands = new LandsViewModel();
+            Application.Current.MainPage = new MasterPage();
+
             this.IsRunning = false;
             this.IsEnabled = true;
 
-            MainViewModel.GetInstance().Lands = new LandsViewModel();
-            await Application.Current.MainPage.Navigation.PushAsync(new LandsPage());
-
-            //this.IsRunning = true;
-            //this.IsEnabled = true;
-
-            //var connection = await this.apiService.CheckConnection();
-
-            //if (!connection.IsSuccess)
-            //{
-            //    this.IsRunning = false;
-            //    this.IsEnabled = true;
-
-            //    await Application.Current.MainPage.DisplayAlert(
-            //        "Error",
-            //        connection.Message,
-            //        "Accept");
-            //    this.Email = string.Empty;
-            //    return;
-            //}
-
-            //var token = await this.apiService.GetToken(
-            //    "http://localhost:51259",
-            //    this.Email,
-            //    this.Password);
-
-            //if (token == null)
-            //{
-            //    await Application.Current.MainPage.DisplayAlert(
-            //       "Error",
-            //       "Semething was wrong, please try later.",
-            //       "Accept");
-            //    return;
-            //}
-
-            //if (string.IsNullOrEmpty(token.AccessToken))
-            //{
-            //    await Application.Current.MainPage.DisplayAlert(
-            //       "Error",
-            //       token.ErrorDescription,
-            //       "Accept");
-            //    this.Email = string.Empty;
-            //    return;
-            //}
-
-            //var mainViewModel = MainViewModel.GetInstance();
-            //mainViewModel.Token = token;
-            //mainViewModel.Lands = new LandsViewModel();
-            //await Application.Current.MainPage.Navigation.PushAsync(new LandsPage());
-
-
-            //this.IsRunning = false;
-            //this.IsEnabled = true;
-
-            //this.Email = string.Empty;
-            //this.Password = string.Empty;
+            this.Email = string.Empty;
+            this.Password = string.Empty;
         }
         #endregion
     }

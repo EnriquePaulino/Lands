@@ -1,12 +1,12 @@
 ﻿namespace Lands.Backend.Controllers
 {
-    using Domain;
     using Backend.Models;
+    using Domain;
+    using System;
     using System.Data.Entity;
     using System.Net;
     using System.Threading.Tasks;
     using System.Web.Mvc;
-    using System;
     using Helpers;
 
     [Authorize(Roles = "Admin")]
@@ -42,8 +42,6 @@
         }
 
         // POST: Users/Create
-        // Para protegerse de ataques de publicación excesiva, habilite las propiedades específicas a las que desea enlazarse. Para obtener 
-        // más información vea https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Create(UserView view)
@@ -52,11 +50,10 @@
             {
                 var user = this.ToUser(view);
                 db.Users.Add(user);
-                UsersHelper.CreateUserASP(view.Email, "User", view.Password);
                 await db.SaveChangesAsync();
+                UsersHelper.CreateUserASP(view.Email, "User", view.Password);
                 return RedirectToAction("Index");
             }
-
             return View(view);
         }
 
@@ -64,7 +61,6 @@
         {
             return new User
             {
-
                 Email = view.Email,
                 FirstName = view.FirstName,
                 ImagePath = view.ImagePath,

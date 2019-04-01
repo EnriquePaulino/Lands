@@ -1,8 +1,10 @@
-﻿namespace Lands.ViewsModels
+﻿namespace Lands.ViewModels
 {
-    using ViewModels;
-    using System.Collections.Generic;
+    using Helpers;
     using Models;
+    using System.Collections.Generic;
+    using System.Collections.ObjectModel;
+    using ViewModels;
 
     public class MainViewModel
     {
@@ -13,12 +15,25 @@
             set;
         }
 
-        public TokenResponse Token
+        public string Token
+        {
+            get;
+            set;
+        }
+
+        public string TokenType
+        {
+            get;
+            set;
+        }
+
+        public ObservableCollection<MenuItemViewModel> Menus
         {
             get;
             set;
         }
         #endregion
+
 
         #region ViewModels
         public LoginViewModel Login
@@ -40,13 +55,16 @@
         }
         #endregion
 
+
         #region Constructors
         public MainViewModel()
         {
             instance = this;
             this.Login = new LoginViewModel();
+            this.LoadMenu();
         }
         #endregion
+
 
         #region Singleton
         private static MainViewModel instance;
@@ -58,6 +76,35 @@
             }
             return instance;
         }
+        #endregion
+
+
+        #region Methods
+        private void LoadMenu()
+        {
+            this.Menus = new ObservableCollection<MenuItemViewModel>();
+
+            this.Menus.Add(new MenuItemViewModel
+            {
+                Icon = "ic_settings",
+                PageName = "StaticsPage",
+                Title = Languages.MyProfile,
+            });
+
+            this.Menus.Add(new MenuItemViewModel
+            {
+                Icon = "ic_inser_charg",
+                PageName = "MyProfilePage",
+                Title = Languages.Statics,
+            });
+
+            this.Menus.Add(new MenuItemViewModel
+            {
+                Icon = "ic_exit_to_app",
+                PageName = "LoginPage",
+                Title = Languages.LogoOut,
+            });
+        } 
         #endregion
     }
 }

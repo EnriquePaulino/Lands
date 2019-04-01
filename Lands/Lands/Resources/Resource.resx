@@ -249,4 +249,13 @@
   <data name="Menu" xml:space="preserve">
     <value>Menu</value>
   </data>
+  <data name="LogoOut" xml:space="preserve">
+    <value>Logoout</value>
+  </data>
+  <data name="MyProfile" xml:space="preserve">
+    <value>My Profile</value>
+  </data>
+  <data name="Statics" xml:space="preserve">
+    <value>Statics</value>
+  </data>
 </root>

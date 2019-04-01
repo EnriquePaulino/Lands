@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "5fc9879efcfb7ab98d464c0784e9b5720468db5c"
+    "signature": "7369666869349014afef79c1177d0e0a9da9a27d"
   },
   "compilationOptions": {},
   "targets": {
@@ -14,12 +14,14 @@
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.1",
           "Xam.Plugin.Connectivity": "3.1.1",
+          "Xam.Plugins.Settings": "3.1.1",
           "Xamarin.FFImageLoading": "2.3.4",
           "Xamarin.FFImageLoading.Forms": "2.3.4",
           "Xamarin.FFImageLoading.Svg": "2.3.4",
           "Xamarin.FFImageLoading.Svg.Forms": "2.3.4",
           "Xamarin.FFImageLoading.Transformations": "2.3.4",
-          "Xamarin.Forms": "3.6.0.264807"
+          "Xamarin.Forms": "3.6.0.264807",
+          "System.Configuration": "4.0.0.0"
         },
         "runtime": {
           "Lands.dll": {}
@@ -73,6 +75,21 @@
             "fileVersion": "3.1.1.0"
           },
           "lib/netstandard1.0/Plugin.Connectivity.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.1.1.0"
+          }
+        }
+      },
+      "Xam.Plugins.Settings/3.1.1": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Plugin.Settings.Abstractions.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.1.1.0"
+          },
+          "lib/netstandard1.0/Plugin.Settings.dll": {
             "assemblyVersion": "3.1.1.0",
             "fileVersion": "3.1.1.0"
           }
@@ -155,10 +172,24 @@
       },
       "Lands.Domain/1.0.0": {
         "dependencies": {
-          "EntityFramework": "6.0.0.0"
+          "EntityFramework": "6.0.0.0",
+          "System.Security": "4.0.0.0"
         },
         "runtime": {
           "Lands.Domain.dll": {}
+        }
+      },
+      "System.Configuration/4.0.0.0": {
+        "runtime": {
+          "System.Configuration.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.3324.0"
+          }
+        },
+        "resources": {
+          "es/System.Configuration.resources.dll": {
+            "locale": "es"
+          }
         }
       },
       "EntityFramework.Reference/6.0.0.0": {
@@ -166,6 +197,19 @@
           "EntityFramework.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.2.61023.0"
+          }
+        }
+      },
+      "System.Security.Reference/4.0.0.0": {
+        "runtime": {
+          "System.Security.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.3190.0"
+          }
+        },
+        "resources": {
+          "es/System.Security.resources.dll": {
+            "locale": "es"
           }
         }
       }
@@ -219,6 +263,13 @@
       "path": "xam.plugin.connectivity/3.1.1",
       "hashPath": "xam.plugin.connectivity.3.1.1.nupkg.sha512"
     },
+    "Xam.Plugins.Settings/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EQEYQJ64ZLqui5GWkLMavgqitHxwUHZHryTzUD1021UBuz1XwDSjPL45W0K4pPXjz9oKbg7YpRXKPR1luPr/5Q==",
+      "path": "xam.plugins.settings/3.1.1",
+      "hashPath": "xam.plugins.settings.3.1.1.nupkg.sha512"
+    },
     "Xamarin.FFImageLoading/2.3.4": {
       "type": "package",
       "serviceable": true,
@@ -266,7 +317,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "System.Configuration/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "EntityFramework.Reference/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Security.Reference/4.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

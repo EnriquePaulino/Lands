@@ -7,7 +7,7 @@ namespace Lands.ViewModels
     using System;
     using System.Windows.Input;
     using Xamarin.Forms;
-    using ViewsModels;
+    using ViewModels;
 
     public class LandItemViewModel : Land
     {

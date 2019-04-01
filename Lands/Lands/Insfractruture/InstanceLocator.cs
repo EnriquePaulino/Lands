@@ -1,7 +1,7 @@
 ﻿
 namespace Lands.Insfractruture
 {
-    using ViewsModels;
+    using ViewModels;
 
     public class InstanceLocator
     {

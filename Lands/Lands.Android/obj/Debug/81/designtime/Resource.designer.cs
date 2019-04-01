@@ -4353,6 +4353,9 @@ namespace Lands.Droid
 			// aapt resource value: 0x7F090057
 			public const int ic_dialog_close_light = 2131296343;
 			
+			// aapt resource value: 0x7F010010
+			public const int ic_exit_to_app = 2130771984;
+			
 			// aapt resource value: 0x7F090058
 			public const int ic_group_collapse_00 = 2131296344;
 			
@@ -4449,8 +4452,11 @@ namespace Lands.Droid
 			// aapt resource value: 0x7F090077
 			public const int ic_group_expand_15 = 2131296375;
 			
-			// aapt resource value: 0x7F010010
-			public const int ic_launcher = 2130771984;
+			// aapt resource value: 0x7F010011
+			public const int ic_inser_charg = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int ic_launcher = 2130771986;
 			
 			// aapt resource value: 0x7F090078
 			public const int ic_media_pause_dark = 2131296376;
@@ -4857,6 +4863,9 @@ namespace Lands.Droid
 			// aapt resource value: 0x7F0900FE
 			public const int ic_mr_button_grey = 2131296510;
 			
+			// aapt resource value: 0x7F010013
+			public const int ic_settings = 2130771987;
+			
 			// aapt resource value: 0x7F0900FF
 			public const int ic_vol_type_speaker_dark = 2131296511;
 			
@@ -4875,8 +4884,8 @@ namespace Lands.Droid
 			// aapt resource value: 0x7F090104
 			public const int ic_vol_type_tv_light = 2131296516;
 			
-			// aapt resource value: 0x7F010011
-			public const int instagram_logo = 2130771985;
+			// aapt resource value: 0x7F010014
+			public const int instagram_logo = 2130771988;
 			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
@@ -4977,8 +4986,8 @@ namespace Lands.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010012
-			public const int onu = 2130771986;
+			// aapt resource value: 0x7F010015
+			public const int onu = 2130771989;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -4986,8 +4995,8 @@ namespace Lands.Droid
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010013
-			public const int twitter_logo = 2130771987;
+			// aapt resource value: 0x7F010016
+			public const int twitter_logo = 2130771990;
 			
 			static Drawable()
 			{

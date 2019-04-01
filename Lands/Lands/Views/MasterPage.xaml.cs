@@ -1,6 +1,5 @@
 ﻿namespace Lands.Views
 {
-
     using Xamarin.Forms;
     using Xamarin.Forms.Xaml;
 
@@ -10,7 +9,7 @@
         public MasterPage()
         {
             InitializeComponent();
-            App.Navigator = Navigation;
+            App.Navigator = Navigator;
         }
     }
 }

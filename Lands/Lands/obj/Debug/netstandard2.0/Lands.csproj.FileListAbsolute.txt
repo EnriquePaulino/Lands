@@ -4,8 +4,12 @@ D:\IBSProyecto\Lands\Lands\Lands\bin\Debug\netstandard2.0\Lands.pdb
 D:\IBSProyecto\Lands\Lands\Lands\bin\Debug\netstandard2.0\es\Lands.resources.dll
 D:\IBSProyecto\Lands\Lands\Lands\bin\Debug\netstandard2.0\pt\Lands.resources.dll
 D:\IBSProyecto\Lands\Lands\Lands\bin\Debug\netstandard2.0\Lands.Domain.dll
+D:\IBSProyecto\Lands\Lands\Lands\bin\Debug\netstandard2.0\System.Configuration.dll
 D:\IBSProyecto\Lands\Lands\Lands\bin\Debug\netstandard2.0\EntityFramework.dll
+D:\IBSProyecto\Lands\Lands\Lands\bin\Debug\netstandard2.0\System.Security.dll
 D:\IBSProyecto\Lands\Lands\Lands\bin\Debug\netstandard2.0\Lands.Domain.pdb
+D:\IBSProyecto\Lands\Lands\Lands\bin\Debug\netstandard2.0\es\System.Configuration.resources.dll
+D:\IBSProyecto\Lands\Lands\Lands\bin\Debug\netstandard2.0\es\System.Security.resources.dll
 D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Lands.csprojAssemblyReference.cache
 D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Lands.Resources.Resource.resources
 D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Lands.Resources.Resource.es.resources
@@ -20,6 +24,8 @@ D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Views\LandsPage.xaml.g
 D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Views\LandTabbedPage.xaml.g.cs
 D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Views\LanguagesPage.xaml.g.cs
 D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Views\MasterPage.xaml.g.cs
+D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
 D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Views\TranslationsPage.xaml.g.cs
 D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Lands.csproj.CoreCompileInputs.cache
 D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Lands.AssemblyInfoInputs.cache
