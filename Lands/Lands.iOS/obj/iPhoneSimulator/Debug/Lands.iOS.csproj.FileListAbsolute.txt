@@ -73,7 +73,6 @@ D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\Lands.dll
 D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\Lands.Domain.dll
 D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\EntityFramework.dll
 D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\Lands.pdb
-D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\Lands.dll.mdb
 D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\Lands.Domain.pdb
 D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\es\Lands.resources.dll
 D:\IBSProyecto\Lands\Lands\Lands.iOS\bin\iPhoneSimulator\Debug\pt\Lands.resources.dll

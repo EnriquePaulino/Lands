@@ -45,3 +45,7 @@ Lands.Domain
 System.Reflection.Extensions
 EntityFramework
 System.Configuration
+ImageCircle.Forms.Plugin
+Plugin.CurrentActivity
+Plugin.Media
+Plugin.Permissions

@@ -30,7 +30,6 @@ D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Views\TranslationsPage
 D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Lands.csproj.CoreCompileInputs.cache
 D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Lands.AssemblyInfoInputs.cache
 D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Lands.AssemblyInfo.cs
-D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\XamlC.stamp
 D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\es\Lands.resources.dll
 D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\pt\Lands.resources.dll
 D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Lands.csproj.CopyComplete
