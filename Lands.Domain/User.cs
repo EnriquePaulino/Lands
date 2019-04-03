@@ -48,7 +48,7 @@
                 }
 
                 return string.Format(
-                    "http:// http://landsapi.somee.com/{0}",
+                    "http://http://landsapi.somee.com/{0}",
                     ImagePath.Substring(1));
             }
         }

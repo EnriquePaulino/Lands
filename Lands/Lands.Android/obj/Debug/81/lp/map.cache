@@ -8,10 +8,14 @@ FFImageLoading.Transformations
 FormsViewGroup
 GalaSoft.MvvmLight
 GalaSoft.MvvmLight.Platform
+ImageCircle.Forms.Plugin
 Lands
 Newtonsoft.Json
 Plugin.Connectivity.Abstractions
 Plugin.Connectivity
+Plugin.CurrentActivity
+Plugin.Media
+Plugin.Permissions
 Plugin.Settings.Abstractions
 Plugin.Settings
 SkiaSharp
@@ -45,7 +49,3 @@ Lands.Domain
 System.Reflection.Extensions
 EntityFramework
 System.Configuration
-ImageCircle.Forms.Plugin
-Plugin.CurrentActivity
-Plugin.Media
-Plugin.Permissions

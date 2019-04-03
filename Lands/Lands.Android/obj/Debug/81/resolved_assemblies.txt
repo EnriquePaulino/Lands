@@ -9,6 +9,7 @@ D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\android\assets\FFImageLoad
 D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\android\assets\FormsViewGroup.dll
 D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\android\assets\GalaSoft.MvvmLight.dll
 D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\android\assets\GalaSoft.MvvmLight.Platform.dll
+D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\android\assets\ImageCircle.Forms.Plugin.dll
 D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\android\assets\Java.Interop.dll
 D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\android\assets\Lands.dll
 D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\android\assets\Mono.Android.dll
@@ -16,6 +17,9 @@ D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\android\assets\mscorlib.dl
 D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\android\assets\Newtonsoft.Json.dll
 D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\android\assets\Plugin.Connectivity.Abstractions.dll
 D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\android\assets\Plugin.Connectivity.dll
+D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\android\assets\Plugin.CurrentActivity.dll
+D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\android\assets\Plugin.Media.dll
+D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\android\assets\Plugin.Permissions.dll
 D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\android\assets\Plugin.Settings.Abstractions.dll
 D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\android\assets\Plugin.Settings.dll
 D:\IBSProyecto\Lands\Lands\Lands.Android\obj\Debug\81\android\assets\SkiaSharp.dll

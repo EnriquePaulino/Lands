@@ -15,6 +15,7 @@
         [Index("UserType_Name_Index", IsUnique = true)]
         public string Name { get; set; }
 
+
         [JsonIgnore]
         public virtual ICollection<User> Users { get; set; }
     }

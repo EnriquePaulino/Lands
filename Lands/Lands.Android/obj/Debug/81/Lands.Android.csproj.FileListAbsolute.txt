@@ -1,4 +1,3 @@
-D:\IBSProyecto\Lands\Lands\Lands\bin\Debug\netstandard2.0\Lands.dll
 D:\IBSProyecto\Lands\Lands\Lands.Android\bin\Debug\Lands.Android.dll
 D:\IBSProyecto\Lands\Lands\Lands.Android\bin\Debug\Lands.Android.pdb
 D:\IBSProyecto\Lands\Lands\Lands.Android\bin\Debug\com.companyname.Lands.apk
