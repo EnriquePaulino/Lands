@@ -1,12 +1,11 @@
 ﻿namespace Lands.ViewModels
 {
     using GalaSoft.MvvmLight.Command;
-    using ViewModels;
-    using Services;
     using System.Windows.Input;
+    using Services;
+    using Views;
     using Xamarin.Forms;
     using Helpers;
-    using Views;
     using System;
 
     public class LoginViewModel : BaseViewModel

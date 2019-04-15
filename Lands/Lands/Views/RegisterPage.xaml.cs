@@ -4,9 +4,9 @@
 
     public partial class RegisterPage : ContentPage
 	{
-		public RegisterPage ()
+		public RegisterPage()
 		{
-			InitializeComponent ();
+			InitializeComponent();
 		}
 	}
 }

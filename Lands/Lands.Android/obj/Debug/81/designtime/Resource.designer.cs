@@ -4990,7 +4990,10 @@ namespace Lands.Droid
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
 			// aapt resource value: 0x7F010016
-			public const int onu = 2130771990;
+			public const int no_image = 2130771990;
+			
+			// aapt resource value: 0x7F010017
+			public const int onu = 2130771991;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -4998,8 +5001,8 @@ namespace Lands.Droid
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010017
-			public const int twitter_logo = 2130771991;
+			// aapt resource value: 0x7F010018
+			public const int twitter_logo = 2130771992;
 			
 			static Drawable()
 			{

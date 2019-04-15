@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "82a13d153a7597eed9bee50b63c22f97037309dc"
+    "signature": "89f223e41aea817f5df7cd580c8bc95a4413ffdc"
   },
   "compilationOptions": {},
   "targets": {
@@ -15,7 +15,6 @@
           "Newtonsoft.Json": "12.0.1",
           "Xam.Plugin.Connectivity": "3.1.1",
           "Xam.Plugin.Media": "4.0.1.5",
-          "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xam.Plugins.Settings": "3.1.1",
           "Xamarin.FFImageLoading": "2.3.4",
           "Xamarin.FFImageLoading.Forms": "2.3.4",
@@ -96,17 +95,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Plugin.Media.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
-        "dependencies": {
-          "Xamarin.Forms": "3.6.0.264807"
-        },
-        "runtime": {
-          "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -308,13 +296,6 @@
       "sha512": "sha512-a5l/M2Tl06BqBX/uhM/pr+q1jDkh2tRQr5Ne9rjAuD9VYn5STE+7kVFTzIUNPMnMr9PZLJkWP5WAr/tBN5oepw==",
       "path": "xam.plugin.media/4.0.1.5",
       "hashPath": "xam.plugin.media.4.0.1.5.nupkg.sha512"
-    },
-    "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-59HyuAaUzuloQmu/PVCDCJQMRuuhqmIpCQ+d5hH5Qp8AZsa/vDi5ulrXDKRMZSZt/xbXsyZV+aZ/W/SZaYt2Mg==",
-      "path": "xam.plugins.forms.imagecircle/3.0.0.5",
-      "hashPath": "xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512"
     },
     "Xam.Plugins.Settings/3.1.1": {
       "type": "package",

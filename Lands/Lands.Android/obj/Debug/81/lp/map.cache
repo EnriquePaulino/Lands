@@ -49,3 +49,5 @@ Lands.Domain
 System.Reflection.Extensions
 EntityFramework
 System.Configuration
+ImageCircle.Forms.Plugin.Abstractions
+ImageCircle.Forms.Plugin.Android
