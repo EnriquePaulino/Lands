@@ -36,3 +36,4 @@ D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\pt\Lands.resources.dll
 D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Lands.csproj.CopyComplete
 D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Lands.dll
 D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\Lands.pdb
+D:\IBSProyecto\Lands\Lands\Lands\obj\Debug\netstandard2.0\XamlC.stamp
